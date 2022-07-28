@@ -8,7 +8,9 @@ import { GithubProvider } from './context/context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GithubProvider>
+      <App />
+    </GithubProvider>   
   </React.StrictMode>,
   document.getElementById('root')
 );
