@@ -10,7 +10,7 @@ const {isLoading} = useContext(GithubContext)
   if(isLoading){
     return (
       <main>
-       <Navbar/>     
+    { /*  <Navbar/>   */ } 
        <img src={loadingImage} className='loading-img' alt='image'/>
      </main>
      )
